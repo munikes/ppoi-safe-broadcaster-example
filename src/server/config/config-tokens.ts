@@ -36,7 +36,6 @@ const tokensConfig: NetworkTokensConfig = {
     [NetworkChainID.Ethereum]: {
       ...STABLES_ETH,
       ...BLUECHIP_ETH,
-      ...REN_TOKENS_ETH,
     },
     [NetworkChainID.EthereumGoerli]: {
       [TokenAddressGoerli.WETH]: {
